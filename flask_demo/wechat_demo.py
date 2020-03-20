@@ -28,7 +28,7 @@ def wechat():
 
     if request.method == 'POST':
         message = [
-            "你是笨蛋", "丽丽，我喜欢你", "点点，不要不理我", "我想领走你，可以吗？"
+            "你是笨蛋", "我喜欢你", "点点，不要不理我", "我想领走你，可以吗？"
         ]
         xml = request.data
         req = xmltodict.parse(xml)['xml']
